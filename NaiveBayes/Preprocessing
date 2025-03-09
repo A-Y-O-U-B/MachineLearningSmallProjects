@@ -1,0 +1,4 @@
+Performed Pre-processing steps:
+  - Removed the id column.
+  - Removed the Unnamed: 32 column if present(empty column).
+  - Encoded M → 1 and B → 0.
