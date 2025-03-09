@@ -38,6 +38,12 @@
         of the data (especially class distribution). In particular, for imbalanced datasets, focusing on metrics like precision, recall, and F1-score rather than 
         relying solely on accuracy leads to a much more meaningful assessment.
 
+   7. Resources:
+      - https://scikit-learn.org
+      - https://www.ibm.com
+      - INTRUDUCTION TO MACHINE LEARNING by ETHEM ALPAYDIN
+      - https://chatgpt.com
+
 
 
 
