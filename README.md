@@ -33,6 +33,10 @@
    6. Discussion:
       - Reasons for Differences: I think that the minor discrepancies between manual and sklearn results may stem from 
         variance calculation, log probability differences, or floating-point rounding.
+      - In a problem with a balanced class distribution, accuracy is often a good initial indicator. However, if there are factors like cost, risk, or priority, 
+        metrics such as precision, recall, and F1 should definitely be considered. Therefore, evaluation metrics must be chosen based on the problem and the nature 
+        of the data (especially class distribution). In particular, for imbalanced datasets, focusing on metrics like precision, recall, and F1-score rather than 
+        relying solely on accuracy leads to a much more meaningful assessment.
 
 
 
