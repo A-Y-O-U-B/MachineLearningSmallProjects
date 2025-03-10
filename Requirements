@@ -1,0 +1,15 @@
+- Python 3.11.9
+- Selected Jupyter core packages...
+    - IPython          : 8.25.0
+    - ipykernel        : 6.28.0
+    - ipywidgets       : 7.8.1
+    - jupyter_client   : 8.6.0
+    - jupyter_core     : 5.7.2
+    - jupyter_server   : 2.14.1
+    - jupyterlab       : 4.0.11
+    - nbclient         : 0.8.0
+    - nbconvert        : 7.10.0
+    - nbformat         : 5.9.2
+    - notebook         : 7.0.8
+    - qtconsole        : 5.5.1
+    - traitlets        : 5.14.3
