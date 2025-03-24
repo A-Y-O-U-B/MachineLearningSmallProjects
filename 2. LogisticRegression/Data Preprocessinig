@@ -1,0 +1,7 @@
+Performed Pre-processing steps:
+    - The customerID column was removed as it is not useful for prediction.
+    - The TotalCharges column was converted to numeric, and rows with missing values were dropped.
+    - The target variable Churn was encoded as 1 for “Yes” and 0 for “No”.
+    - Binary categorical features (e.g., Partner, Dependents, PaperlessBilling, etc.) were encoded as 0 and 1.
+    - Multi-class categorical features (e.g., InternetService, Contract, PaymentMethod, etc.) were one-hot encoded (with drop_first=True to avoid multicollinearity).
+    - Remaining boolean columns were either kept as True/False or converted to 0/1 where necessary.
