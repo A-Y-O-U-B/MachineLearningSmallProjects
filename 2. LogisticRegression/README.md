@@ -1,4 +1,4 @@
-1) Logistic Regression:
+2) Logistic Regression:
    1. Problem Definition:
       - Goal: Predict whether a customer will churn (leave the service) based on their account, service usage, and demographic data.
       - This project compares a manual implementation of logistic regression (using Python & NumPy) with scikit-learn’s LogisticRegression.
