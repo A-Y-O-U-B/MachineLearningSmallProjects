@@ -1,3 +1,5 @@
+# Logistic Regression
+
 2) Logistic Regression:
    1. Problem Definition:
       - Goal: Predict whether a customer will churn (leave the service) based on their account, service usage, and demographic data.
