@@ -1,3 +1,5 @@
+# NaiveBayes
+
 1) Gaussian Naive Bayes:
    1. Problem Definition:
       - In this project, I used the Breast Cancer Wisconsin dataset to classify cancer diagnosis (benign or malignant).
