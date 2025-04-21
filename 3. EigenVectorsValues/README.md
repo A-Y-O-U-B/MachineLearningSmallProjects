@@ -38,4 +38,6 @@ In this project we will talk about Eigendecomposition of a Matrix, we will start
              - LDA is a supervised method that finds the linear combination of features that best separates classes. It uses eigenvectors of the scatter matrices 
                to perform the projection.
       
-
+   3. Why it is important:
+      - Understand how a matrix transforms space, Reduce computational complexity and Capture the most informative structure of the data. In machine learning, this 
+        leads to better generalization, interpretability and efficiency.
