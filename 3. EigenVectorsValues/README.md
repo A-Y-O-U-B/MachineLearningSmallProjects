@@ -2,6 +2,7 @@
 In this project we will talk about Eigendecomposition of a Matrix, we will start with a brief definitions and Eigendecomposition's relationship to Machine Learning then we will dive into the Calculation of Eigendecomposition and we will do it two ways. First using numpy then we will do it manually to compare each of these ways and note the results.
 
 2) Eigendecomposition of a Matrix:
+
    1. Definitions:
       1. Matrix Manipulation:
          - Matrix manipulation involves performing operations such as addition, multiplication, transposition, and inversion on matrices. These are essential in 
