@@ -16,24 +16,24 @@ In this project we will talk about Eigendecomposition of a Matrix, we will start
    2. Relationship to Machine Learning:
       - Matrix operations and Eigendecomposition(eigenvalues and eigenvectors) are core mathematical tools in many machine learning techniques, especially in 
         dimensionality reduction, data transformation, and optimization. We will talk briefly about some of these techniques.
-          1- Principal Component Analysis (PCA):
+          1. Principal Component Analysis (PCA):
              - PCA is one of the most common uses of eigenvalues and eigenvectors. It transforms the original features into a set of orthogonal components 
                (principal components) where these components are derived from the eigenvectors of the covariance matrix of the dataset. The eigenvalues indicate 
                the amount of variance captured by each principal component.
-          2- Singular Value Decomposition (SVD):
+          2. Singular Value Decomposition (SVD):
              - SVD is a powerful matrix factorization technique used to decompose any 𝑚×𝑛 matrix 𝐴 into three matrices:
                                               A = 𝑈Σ𝑉^𝑇
                Where:
                - 𝑈: left singular vectors (orthogonal)
                - Σ: diagonal matrix of singular values (square roots of eigenvalues)
                - 𝑉^𝑇: right singular vectors (orthogonal)
-          3- Spectral Clustering:
+          3. Spectral Clustering:
              - This method uses the eigenvectors of a similarity matrix (like a graph Laplacian) to reduce dimensionality before applying clustering algorithms 
                such as k-means.
-          4- Latent Semantic Analysis (LSA):
+          4. Latent Semantic Analysis (LSA):
              - In Natural Language Processing (NLP), LSA uses Singular Value Decomposition (SVD), which involves eigenvalues, to identify patterns in relationships 
                between terms and documents.
-          5- Linear Discriminant Analysis (LDA):
+          5. Linear Discriminant Analysis (LDA):
              - LDA is a supervised method that finds the linear combination of features that best separates classes. It uses eigenvectors of the scatter matrices 
                to perform the projection.
       
