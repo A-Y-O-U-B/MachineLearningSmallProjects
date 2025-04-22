@@ -87,7 +87,7 @@ In this project we will talk about Eigendecomposition of a Matrix, we will start
    5. Comparison of Manual Eigendecomposition Calculation and Numpy's eig():
       - If here we are talking about time, then ofcourse NumPy is much faster then any manual implementation.
       - But the real and challenging question here is,
-        Do manually computed eigenvalues/vectors differ from NumPy’s eig()?!! the answer for this question can be consider in two way as follows,
+        Do manually computed eigenvalues/vectors differ from NumPy’s eig()?!! the answer for this question can be consider in two ways as follows,
         1. In theory:
           - No, the mathematical results should be the same.Eigenvalues and eigenvectors are unique mathematical solutions to the equation:
                                                       𝐴𝑣 = 𝜆𝑣
