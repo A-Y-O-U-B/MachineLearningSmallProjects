@@ -55,14 +55,14 @@ Lets start with a brief introduction to Linear Regression and give some importan
    
        #To solve a linear regression problem using the least squares method, there are two common approaches:
 
-       1. Analytical Method – Normal Equation:
+       1. Analytical Method ➔ Normal Equation:
           ➔ This method involves taking the derivative of the cost function (Mean Squared Error) and setting it equal to zero. Solving the resulting equation 
              yields the optimal weights directly:
                                                    𝜃 = ((XT) X)^−1 (XT)Y
              - It gives an exact solution.
              - Best for small to medium datasets.
              - Requires matrix inversion, which is computationally expensive for large or high-dimensional data.
-       2. Iterative Method – Gradient Descent:
+       2. Iterative Method ➔ Gradient Descent:
           ➔ Instead of solving algebraically, gradient descent finds the minimum of the cost function by repeatedly updating the weights:
                                                     𝜃 := 𝜃 − α⋅∇J(𝜃)
              Where:
