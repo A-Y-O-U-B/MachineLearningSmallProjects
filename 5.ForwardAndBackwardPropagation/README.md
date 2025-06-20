@@ -63,13 +63,35 @@ And this is possible because of:
        - Two inputs 𝑥𝑖
        - Hidden layer: two neurons with sigmoid activations
        - Output layer: one neuron with identity activation (i.e., linear)
+       Output Neuron: y* = θ5 + θ6.o11 + θ7.o12    ; where o11 and o12 is the the output of the activation function.
+       This combination allows us to model complex non-linear functions by summing “bumps” from sigmoid outputs.
+       - θ6"squeezes" → controls steepness.
+       - 𝜃7"flips" → controls direction (positive/negative)
+       Expectation Interpretation:
+       We treat the output as:
+                         y*i = E(yi ∣ xi;θ)
+       And assume Gaussian noise:
+                         P(yi ∣ xi;θ) = 1/(✓​2πσ ) x exp(-(y*i-yi)^2 / ​2σ)
+       This leads naturally to Mean Squared Error (MSE) as the loss.
    
-​
+   1.3 Multiclass Classification using MLP + Softmax:
+       Now we have multiple output classes say 3 classes.
+       the structure will be:
+       - Input → hidden layer (with sigmoid) → 3 output neurons (one per class)
+       - Instead of sigmoid at the end, we use softmax to turn raw outputs into probabilities:
+         Let 𝑢21,𝑢22,𝑢23 be the raw scores from output neurons.
+                            y*i1 = e^𝑢21 / (e^𝑢21 + e^𝑢22 + e^𝑢23) and same for y*i2 and y*i3
+         This guarantees:
+         - All probabilities are positive
+         - They sum to 1
+         - No need for sigmoid
 
-   
 
-
-
+2. Backward Propagation (How MLP Learns)
+   Backward propagation is how an MLP learns from its mistakes.
+   After making a prediction, the network compares its output to the true value to measure how wrong it was (the error). Then, starting from the output layer, it     sends the error backward through the network to adjust the weights.
+   Each weight is updated based on how much it contributed to the error — this is done using a rule called the chain rule. The network uses this information to       tweak the weights slightly, so next time the prediction gets a bit better.
+   This process is repeated many times, helping the network gradually improve.
 
 
 
